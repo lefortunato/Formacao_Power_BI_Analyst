@@ -17,7 +17,11 @@
 * [🏗️ Definições de Papéis no Ecossistema de Dados](#-objetivo-deste-tópico)
 * [💡 O que é BI (Business Intelligence)](#-objetivo-deste-t%C3%B3pico)
 * [❔ Diferença entre Dados, Informação e Conhecimento)](#-objetivo-deste-t%C3%B3pico)
-
+* [🏗️ Data Analytics e Big Data)](#-objetivo-deste-t%C3%B3pico)
+* [⚙️ Fundamentos de ETL vs. ELT)](#-objetivo-deste-t%C3%B3pico)
+* [⚙️ Fundamentos de ETL vs. ELT)](#-objetivo-deste-t%C3%B3pico)
+* [⚙️ Fundamentos de ETL vs. ELT)](#-objetivo-deste-t%C3%B3pico)
+* [⚙️ Fundamentos de ETL vs. ELT)](#-objetivo-deste-t%C3%B3pico)
   
 * [🔗 Como Contribuir / Contato](#-como-contribuir--contato)
 
@@ -46,6 +50,46 @@ A análise de dados evolui em complexidade e valor agregado:
 **Análise Diagnóstica (BI):** "Por que aconteceu?" – Identificação de causas e correlações para um resultado específico. </br></br>
 **Análise Preditiva (Data Science):** "O que pode acontecer?" – Uso de modelos para prever comportamentos futuros. </br></br>
 **Análise Prescritiva (Data Science):** "O que devemos fazer?" – Recomenda o melhor caminho a seguir com base nas previsões. </br></br>
+
+## 🏗️ 5. Data Analytics e Big Data
+Para lidar com grandes volumes de dados (Big Data), utilizamos uma estrutura de fluxo bem definida:
+
+**Data Source:** São as fontes de origem dos dados, como bancos de dados SQL, arquivos CSV, APIs ou logs de sistemas. </br></br>
+**ETL:** O processo de extrair, transformar e carregar os dados. </br></br>
+**Data Warehouse (DW):** Um repositório centralizado e otimizado para análise, onde os dados já chegam estruturados. </br></br>
+**Análise de Dados:** A fase de exploração dos dados para responder perguntas de negócio. </br></br>
+**Visualização dos Dados:** A criação de dashboards e gráficos (no Power BI, por exemplo) para comunicar os resultados. </br></br>
+
+## ⚙️ 6. Fundamentos de ETL vs. ELT
+A principal diferença entre os dois processos é onde a transformação do dado acontece.
+
+**O que é ETL (Extract, Transform, Load)**
+Os dados são transformados antes de chegarem ao destino final. É ideal para quando precisamos de segurança rigorosa e os dados de destino devem estar perfeitamente limpos.
+
+**O que é ELT (Extract, Load, Transform)**
+Os dados são carregados brutos no destino e a transformação ocorre dentro do próprio armazém de dados (Data Warehouse/Lake).
+
+**Vantagens do ELT** </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **. Tempo de carregamento:** Mais rápido, pois o dado vai direto para o destino. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **. Tempo de transformação:** Aproveita o alto poder de processamento da nuvem. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **. Complexidade de implementação:** Geralmente menor, pois exige menos ferramentas intermediárias. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **. Suporte a Data Warehouses:** Modernos DWs (como BigQuery ou Snowflake) são desenhados para suportar ELT com facilidade. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **. Usabilidade:** Permite que os analistas transformem os dados conforme a necessidade, sem depender sempre da engenharia. </br></br>
+
+| Característica | ETL | ELT
+| :---: | :---: | :---: |
+| Ordem	| Extrai > Transforma > Carrega	| Extrai > Carrega > Transforma
+| Onde transforma	| Em um servidor temporário (staging)	| No banco de dados de destino
+| Flexibilidade	| Baixa (o dado já chega pronto)	| Alta (o dado bruto está disponível)
+
+**Quando usar ETL:** Quando você lida com dados sensíveis que precisam de máscaras antes de serem armazenados ou quando o banco de destino não tem poder de processamento.</br></br>
+**Quando usar ELT:** Quando você trabalha com Big Data, utiliza ferramentas em nuvem e precisa de agilidade para que diferentes áreas analisem os mesmos dados brutos.</br></br>
+
+
+
+
+
+
 
 
 ## 🎯 Objetivo deste tópico
