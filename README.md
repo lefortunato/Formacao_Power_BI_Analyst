@@ -82,8 +82,43 @@ Os dados são carregados brutos no destino e a transformação ocorre dentro do 
 | Onde transforma	| Em um servidor temporário (staging)	| No banco de dados de destino
 | Flexibilidade	| Baixa (o dado já chega pronto)	| Alta (o dado bruto está disponível)
 
-**Quando usar ETL:** Quando você lida com dados sensíveis que precisam de máscaras antes de serem armazenados ou quando o banco de destino não tem poder de processamento.</br></br>
-**Quando usar ELT:** Quando você trabalha com Big Data, utiliza ferramentas em nuvem e precisa de agilidade para que diferentes áreas analisem os mesmos dados brutos.</br></br>
+**Quando usar ETL:** Quando você lida com dados sensíveis que precisam de máscaras antes de serem armazenados ou quando o banco de destino não tem poder de processamento. </br></br>
+**Quando usar ELT:** Quando você trabalha com Big Data, utiliza ferramentas em nuvem e precisa de agilidade para que diferentes áreas analisem os mesmos dados brutos. </br></br>
+
+
+## 🛠️ 7. Configuração do Ambiente e Obtenção de Dados
+Nesta etapa, preparamos as ferramentas e os insumos necessários para o desenvolvimento do projeto.
+
+| Ferramenta | Link | Versão Utilizada
+| :---: | :---: | :---: |
+| Power BI	| https://download.microsoft.com/download/8/8/0/880bca75-79dd-466a-927d-1abf1f5454b0/PBIDesktopSetup_x64.exe |	64-bit
+| Plataforma de base de dados	| https://www.kaggle.com/ | Não se aplica
+| Base de dados p/ testes	| https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset |	Não se aplica
+
+
+**1. Instalação do Power BI Desktop**  </br>
+O Power BI Desktop é a aplicação gratuita de autorização onde criamos os relatórios. </br></br>
+**Download:** Pode ser feito diretamente pelo site oficial da Microsoft ou pela Microsoft Store (recomendado para atualizações automáticas). </br>
+
+**Instalação:** Segue o padrão simples de assistente de instalação para Windows. </br></br>
+
+**2. Obtenção de Dados (Kaggle)** </br><
+Para este projeto, utilizamos o Kaggle, uma das maiores comunidades de ciência de dados do mundo, que oferece datasets (conjuntos de dados) gratuitos para estudo e prática.
+
+**Fonte Principal:** Kaggle Portal
+
+**Dataset de Referência:** Diabetes Dataset
+
+Este conjunto de dados é ideal para praticar análise exploratória, pois contém diversas variáveis numéricas e categóricas que permitem correlações interessantes (como idade, nível de glicose e diagnóstico).
+
+**3. Fluxo Inicial no Power BI** </br>
+Com o software instalado e o arquivo .csv ou .xlsx em mãos:
+
+Utilizamos a opção "Obter Dados" no Power BI.
+
+Conectamos ao arquivo baixado do Kaggle.
+
+Antes de carregar, selecionamos "Transformar Dados" para abrir o Power Query e garantir que os tipos de colunas estejam corretos (ex: garantir que a coluna de ID não seja somada como um número).
 
 
 
