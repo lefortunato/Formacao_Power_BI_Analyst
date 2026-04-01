@@ -121,6 +121,14 @@ Conectamos ao arquivo baixado do Kaggle.
 Antes de carregar, selecionamos "Transformar Dados" para abrir o Power Query e garantir que os tipos de colunas estejam corretos (ex: garantir que a coluna de ID não seja somada como um número).
 
 
+## 🛠️ 8. Documentação do Power BI
+Nesta etapa, apresentarei os links de documentação e base de exemplos para exploração.
+
+| Documentação | Link | 
+| :---: | :---: |
+| Microsoft Power BI	| https://learn.microsoft.com/pt-br/power-bi/ |
+| Exemplos de base de dados	| https://learn.microsoft.com/pt-br/power-bi/create-reports/sample-datasets |
+
 
 ## 🔗 **Como Contribuir / Contato**</br></br>
 Este projeto foi desenvolvido como parte de um desafio prático de segurança cibernética. Sinta-se à vontade para explorá-lo, cloná-lo e adaptá-lo!
