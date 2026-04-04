@@ -130,6 +130,46 @@ Nesta etapa, apresentarei os links de documentação e base de exemplos para exp
 | Exemplos de base de dados	| https://learn.microsoft.com/pt-br/power-bi/create-reports/sample-datasets |
 
 
+## 📊 9. Entendendo KPIs e Métricas no Power BI
+
+**O que são KPIs?** </br>
+
+KPI é a sigla para Key Performance Indicator (Indicador Chave de Desempenho). Diferente de um dado comum, o KPI é um valor quantificável que mostra o quão próximo você está de atingir um objetivo estratégico.
+No Power BI, um KPI geralmente compara um valor atual (ex: vendas reais) contra uma meta (ex: planejamento mensal) para indicar sucesso ou fracasso.
+
+**Quais as vantagens dos KPIs?** </br>
+
+Foco no que importa: Ajuda a equipe a concentrar esforços no que realmente move o negócio.
+Tomada de decisão rápida: Através de cores (verde, amarelo, vermelho), você entende a saúde do negócio num relance.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alinhamento: Garante que todos saibam qual é a meta e o quão longe estão dela.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Transparência:** Cria uma cultura baseada em fatos, não em "achismos".
+
+**Quais são os tipos?** </br>
+
+Os KPIs podem ser divididos em várias categorias, sendo as principais:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1) Indicadores de Produtividade: Medem a eficiência dos processos (ex: peças produzidas por hora).</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Indicadores de Qualidade: Focam na satisfação e conformidade (ex: taxa de produtos com defeito).</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3) Indicadores de Capacidade: Medem quanto uma resposta ou máquina aguenta produzir.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4) Indicadores Estratégicos: Medem se a empresa está alcançando seus grandes objetivos de longo prazo (ex: Market Share).</br>
+
+
+**O que são Métricas de Negócio?** </br>
+
+Métricas são qualquer coisa que possa ser medida em uma empresa (ex: número de cliques, total de vendas, visitantes no site).</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A regra de ouro: Toda métrica é um dado, mas nem toda métrica é um KPI. Uma métrica só vira KPI quando ela é crucial para o objetivo principal do negócio.
+
+**Diferença entre as "Keys" (Chaves de Desempenho)** </br>
+
+A grande diferença entre uma métrica comum e uma "Chave" (o K do KPI) está na intencionalidade:
+
+| Característica | Métrica Comum | KPI (Key Indicator)
+| :---: | :---: | :---: |
+| Objetivo	| Apenas informa um volume ou estado.	| Mede o sucesso de uma estratégia.
+| Ação	| Nem sempre exige uma reação imediata.	| Se estiver no "vermelho", exige correção urgente.
+| Exemplo	| Número de seguidores no Instagram.	| Taxa de conversão de vendas (Lucro).
+
 ## 🔗 **Como Contribuir / Contato**</br></br>
 Este projeto foi desenvolvido como parte de um desafio prático de segurança cibernética. Sinta-se à vontade para explorá-lo, cloná-lo e adaptá-lo!
 
